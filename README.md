@@ -1,4 +1,5 @@
 # Multimodal Machine Learning for Extraction of Theorems and Proofs in the Scientific Literature
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ![Alt text](assets/intro_gif.gif)
 
