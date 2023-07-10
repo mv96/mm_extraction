@@ -1,0 +1,7 @@
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_28,[0.9604974389076233],NA,[0.6101522445678711],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_18,[0.878919780254364],NA,[0.6524394154548645],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_7,[0.8116979002952576],NA,[0.6824739575386047],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_2,[0.8006979823112488],NA,[0.6907277703285217],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_0,[0.7914363145828247],NA,[0.6963452696800232],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_108,[0.8189881443977356],NA,[0.6756452918052673],NA
+/gpfsscratch/rech/zpf/uyf36me/training_patches/batch_106,[0.8166453838348389],NA,[0.6776421666145325],NA

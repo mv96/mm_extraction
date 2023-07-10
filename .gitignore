@@ -1,0 +1,9 @@
+# ignore all the h5 files in the vision part
+*.h5
+Data_preprocessing/pretraining_data/combined_file.txt
+/grobid-0.7.1
+/grobid_client_python
+/grobid_client_python.egg-info
+/Data_preprocessing/pdfalto
+.DS_Store
+/dest-pdfs

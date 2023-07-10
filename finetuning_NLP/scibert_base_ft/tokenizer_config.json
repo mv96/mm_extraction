@@ -1,0 +1,15 @@
+{
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": true,
+  "mask_token": "[MASK]",
+  "name_or_path": "/linkhome/rech/gennsp01/uyf36me/work/post_doc_eng/offline_pretrained_models/allenai/scibert_scivocab_uncased",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": null,
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}

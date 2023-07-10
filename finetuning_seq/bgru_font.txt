@@ -1,0 +1,3 @@
+/linkhome/rech/gennsp01/uyf36me/work/finetuning_NLP/resources/train_data/batch_28.csv,[0.8418020009994507],[0.8747017979621887],[0.6547472476959229],[0.636748731136322]
+/linkhome/rech/gennsp01/uyf36me/work/finetuning_NLP/resources/train_data/batch_18.csv,[0.7572322487831116],[0.8273685574531555],[0.6980977058410645],[0.6700831055641174]
+/linkhome/rech/gennsp01/uyf36me/work/finetuning_NLP/resources/train_data/batch_7.csv,[0.7252243161201477],[0.8032857179641724],[0.7135044932365417],[0.6783260107040405]
