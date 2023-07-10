@@ -1,5 +1,8 @@
 # ignore all the h5 files in the vision part
 *.h5
+.ipynb_checkpoints
+.vscode
+__pycache__
 Data_preprocessing/pretraining_data/combined_file.txt
 /grobid-0.7.1
 /grobid_client_python
