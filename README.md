@@ -3,9 +3,9 @@
 ![Alt text](assets/intro_gif.gif)
 
 This repository provides code, data, and models supplementing the research article **[Multimodal Machine Learning for Extraction of Theorems and
-Proofs in the Scientific Literature](assets/full.pdf)** by Shrey Mishra, Antoine Gauquier and [Pierre Senellart](https://pierre.senellart.com).
+Proofs in the Scientific Literature](https://arxiv.org/pdf/2307.09047.pdf)** by Shrey Mishra, Antoine Gauquier and [Pierre Senellart](https://pierre.senellart.com).
 
-[![Paper Page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-xl.svg)]()
+[![Paper Page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-xl.svg)](https://arxiv.org/pdf/2307.09047.pdf)
 
 The efforts are made in the direction of [Theoremkb](https://github.com/PierreSenellart/theoremkb) project
 
@@ -214,15 +214,19 @@ to apply transformation on generated patches refer this [notebook](finetuning_vi
 
 5. `Finetuning Sequential models`:
 
+## Related
+
+This project is part of the [Theoremkb](https://github.com/PierreSenellart/theoremkb) Project and related to it's extension.
+
 ## FAQ
 
-#### Can I use these models models to finetune on another task that may be similar to this?
+#### Q1) Can I use these models to fine-tune on a similar task?
 
-Sure 👍, This is one of the use cases of pretraining the model from scratch although we don't test these models on any other benchmark other than proof/theorem extraction task but it might be really useful to try to finetune these models on a different task, It would really help usa alot. Please let us know if you make something amazing with this 🤩.
+Certainly! 👍 Fine-tuning these models on a similar task is one of the valuable use cases. While we have primarily tested these models on proof/theorem extraction tasks, they can be adapted for other tasks as well. Finetuning on a different task can yield promising results. We encourage you to explore the potential and let us know if you achieve something remarkable with them 🤩.
 
-#### Are these models available in pytorch ?
+#### Q2) Are these models available in PyTorch?
 
-Unfortunately NO, getting these models are only available in Tensorflow at the moment.
+Regrettably, these models are currently only available in TensorFlow. At present, we do not provide direct support for PyTorch. However, we are continuously expanding our offerings, so please stay updated for any future developments.
 
 ## Acknowledgements
 
@@ -239,12 +243,6 @@ Universitaire de France](https://www.iufrance.fr/).
 Contributions and collaborations are always welcome!
 
 We are always looking for interesting candidates, Please contact pierre@senellart.com 📧 , If you are interested.
-
-## Related
-
-This project is part of the Theoremkb project and it's extension.
-
-1. [See theoremkb Project](https://github.com/PierreSenellart/theoremkb)
 
 ## 🔗 Reach out to Us 💜
 
