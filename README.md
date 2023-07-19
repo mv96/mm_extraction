@@ -9,9 +9,9 @@
 ![Alt text](assets/intro_gif.gif)
 
 This repository provides code, data, and models supplementing the research article **[Multimodal Machine Learning for Extraction of Theorems and
-Proofs in the Scientific Literature](assets/full.pdf)** by Shrey Mishra, Antoine Gauquier and [Pierre Senellart](https://pierre.senellart.com).
+Proofs in the Scientific Literature](https://arxiv.org/pdf/2307.09047.pdf)** by Shrey Mishra, Antoine Gauquier and [Pierre Senellart](https://pierre.senellart.com).
 
-[![Paper Page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-xl.svg)]()
+[![Paper Page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-xl.svg)](https://arxiv.org/pdf/2307.09047.pdf)
 
 The efforts are made in the direction of [Theoremkb](https://github.com/PierreSenellart/theoremkb) project
 
