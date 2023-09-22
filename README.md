@@ -34,16 +34,16 @@ class_names:
 
 To use these models, you first need to select the type of model form the list of models in the table 👇 and then download it from the link provided below:
 
-| Model name 🚀                                                                | Modality                               | Size 🏋️‍♂️  | Mean Accuracy 📈 | Mean F1 Score 🎯 | Download ⬇️                                                                 |
-| :--------------------------------------------------------------------------- | :------------------------------------- | :------- | :--------------- | :--------------- | --------------------------------------------------------------------------- |
-| [Roberta-pretrained_from_scratch-ft](finetuning_NLP/roberta_from_scratch_ft) | Text 💬                                | 498.9 MB | 76.45            | 72.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/roberta_from_scratch_ft)  |
-| [Scibert-ft](finetuning_NLP/scibert_base_ft)                                 | Text 💬                                | 440.9 MB | 76.89            | 71.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/scibert_base_ft)          |
-| [LSTM](finetuning_seq/lstm_font.h5)                                          | Font Seq 🖊️                            | 21 MB    | 65.00            | 45.00            | [Download from 🤗](https://huggingface.co/ENS-Ulm/lstm_font_seq_ordering)   |
-| [Bi-LSTM](finetuning_seq/blstm_font.h5)                                      | Font Seq 🖊️                            | 22 MB    | 68.26            | 45.66            | [Download from 🤗](https://huggingface.co/ENS-Ulm/Bi-LSTM/tree/main)        |
-| [EfficientnetB4](finetuning_vis/new_models/r_efficientnetB4_avg11.h5)        | Vision 👁️                              | 211.5 MB | 68.46            | 54.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/Efficientnet_vision)      |
-| [EfficientNetV2m](finetuning_vis/new_models/r_efficientnetv2m_avg11.h5)      | Vision 👁️                              | 638.3 MB | 69.43            | 60.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/EfficientNetV2m_for_para) |
-| [GMU model 🔱 ](finetuning_multimodal/model_4_9)                             | Text 💬 + Font_Seq 🖊️ + Vision 👁️      | 783.5 MB | 76.86            | 73.87            | [Download from 🤗](https://huggingface.co/Shrey/GMU_multimodal/)            |
-| CRF-GMU model 🚀                                                             | Sequential Blocks of GMU embeddings 🔗 |          |                  |                  |                                                                             |
+| Model name 🚀                                                                   | Modality                               | Size 🏋️‍♂️  | Mean Accuracy 📈 | Mean F1 Score 🎯 | Download ⬇️                                                                 |
+| :------------------------------------------------------------------------------ | :------------------------------------- | :------- | :--------------- | :--------------- | --------------------------------------------------------------------------- |
+| [Roberta-pretrained_from_scratch-ft](finetuning_NLP/roberta_from_scratch_ft)    | Text 💬                                | 498.9 MB | 76.45            | 72.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/roberta_from_scratch_ft)  |
+| [Scibert-ft](finetuning_NLP/scibert_base_ft)                                    | Text 💬                                | 440.9 MB | 76.89            | 71.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/scibert_base_ft)          |
+| [LSTM](finetuning_seq/lstm_font.h5)                                             | Font Seq 🖊️                            | 21 MB    | 65.00            | 45.00            | [Download from 🤗](https://huggingface.co/ENS-Ulm/lstm_font_seq_ordering)   |
+| [Bi-LSTM](finetuning_seq/blstm_font.h5)                                         | Font Seq 🖊️                            | 22 MB    | 68.26            | 45.66            | [Download from 🤗](https://huggingface.co/ENS-Ulm/Bi-LSTM/tree/main)        |
+| [EfficientnetB4](finetuning_vis/new_models/r_efficientnetB4_avg11.h5)           | Vision 👁️                              | 211.5 MB | 68.46            | 54.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/Efficientnet_vision)      |
+| [EfficientNetV2m](finetuning_vis/new_models/r_efficientnetv2m_avg11.h5)         | Vision 👁️                              | 638.3 MB | 69.43            | 60.33            | [Download from 🤗](https://huggingface.co/ENS-Ulm/EfficientNetV2m_for_para) |
+| [GMU model 🔱 ](finetuning_multimodal/model_4_9)                                | Text 💬 + Font_Seq 🖊️ + Vision 👁️      | 783.5 MB | 76.86            | 73.87            | [Download from 🤗](https://huggingface.co/Shrey/GMU_multimodal/)            |
+| [CRF-GMU model 🚀](Sequential/crf_multimodal_seq_info_batch_28_18_7_2.crfsuite) | Sequential Blocks of GMU embeddings 🔗 | 76 KB    | 84.38            | 83.01            | [Download from 🤗](https://huggingface.co/InriaValda/Sequential_CRF)        |
 
 ```python
 #for NLP based model
@@ -218,7 +218,7 @@ to apply transformation on generated patches refer this [notebook](finetuning_vi
 
 4. `Finetuning Multimodal (GMU)`:The GMU model is based upon this [paper](https://arxiv.org/pdf/1702.01992.pdf) using the Font sequence model, language model and the vision model feeding in a gated network to decide the importance of each modality, please refer this [notebook](finetuning_multimodal/multimodal_pred_0205.ipynb) for the implemenation.
 
-5. `Finetuning Sequential models`:
+5. `Finetuning Sequential models`: The Sequential model conisists of a Linear chain CRF model running on the features extracted from the frozen GMU model. To format the data in the preprocessing format refer [Data Preprocessing notebook](Sequential/preprocessing_data_for_crf.ipynb). For training and testing refer [training notebook](Sequential/training_crf.ipynb) and [testing notebook](Sequential/testing_crf.ipynb) respectively.
 
 ## Related
 
