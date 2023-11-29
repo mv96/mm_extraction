@@ -83,6 +83,7 @@ print("rounded label(argmax) :{}".format(np.argmax(prediction_probs)))
 ```
 
 ```python
+# Sequence based model
 import pickle
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
